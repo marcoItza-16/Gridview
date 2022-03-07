@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //ListGrid basico
         var frutas:ArrayList<Fruta> = ArrayList()
         frutas.add(Fruta("Manzana", R.drawable.manzana))
         frutas.add(Fruta("Durazno", R.drawable.durazno))
