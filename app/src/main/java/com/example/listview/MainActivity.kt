@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         //ListGrid basico
         //ListGrid personalizado
+        //Final commit
         var frutas:ArrayList<Fruta> = ArrayList()
         frutas.add(Fruta("Manzana", R.drawable.manzana))
         frutas.add(Fruta("Durazno", R.drawable.durazno))
